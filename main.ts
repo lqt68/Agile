@@ -1,3 +1,5 @@
+export{}
+
 function rest(amount: number, coins: number[]): number[] | null {
     const dp: (number[] | null)[] = new Array(amount + 1).fill(null);
     dp[0] = [];
